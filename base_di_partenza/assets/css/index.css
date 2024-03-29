@@ -5,10 +5,16 @@
 }
 
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Roboto", sans-serif;
 }
-p{
+
+p {
     font-family: "Spectral", serif;
 }
 
@@ -128,62 +134,74 @@ main p {
 
 
 .subMain {
-    width: 33%;
+    width: 30%;
 }
-.subMainAuthor{
+
+.subMainAuthor {
     padding-bottom: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.cont{
+
+.cont {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     padding-bottom: 15px;
     padding-top: 30px;
 }
-.cont2{
+
+.cont2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.cont h2{
+
+.cont h2 {
     font-weight: 700;
     font-size: 15px;
 }
-.subMain p{
+
+.subMain p {
     padding-bottom: 5px;
 }
 
-.container5{
+.container5 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 20px;
-    width: 50%;
+    width: 100%;
+    padding-left: 20px;
 
 }
 
-aside{
+aside {
     padding-left: 20px;
     display: flex;
     flex-shrink: 0;
     flex-direction: column;
 }
 
-.subMainAuthor2{
+.subMainAuthor2 {
     padding-bottom: 5px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-aside h2{
+aside h2 {
     font-weight: 700;
     font-size: 20px;
 }
-.imgAside{
+
+.imgAside {
     display: flex;
     justify-content: space-between;
+    width: 30%;
+}
+
+.leftContent {
+    width: 30%;
 }
